@@ -6,4 +6,6 @@ router.get('/', function(req, res) {
   res.redirect('/catalog');
 });
 
+app.use( '/express-locallibrary-tutorial-1/', router );
+
 module.exports = router;
